@@ -1,5 +1,6 @@
 .card {
     /*width: 18rem;*/
+    background: white;
 }
 
 /*Needed because long course list is problem*/
@@ -8,8 +9,18 @@
     max-height: 200px;
     overflow-x: hidden;
 }
+
+.offyear{
+    background: black;
+    display: none;
+}
+
+.registrationyear{
+    background: white;
+}
 .progress{
-	background: black;
+	background: grey;
+
 }
 
 .coursename{
@@ -31,4 +42,20 @@
     background-image: url('../img/saas.svg');
     background-repeat: no-repeat;
     color:transparent !important;
+}
+
+.btn-sm{
+    margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+  vertical-align: middle;
+  padding: 7.5px;
+}
+
+.form-contro{
+    background-color: rgb(248, 248, 248);
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(248, 248, 248);
+    border-image: initial;
 }
